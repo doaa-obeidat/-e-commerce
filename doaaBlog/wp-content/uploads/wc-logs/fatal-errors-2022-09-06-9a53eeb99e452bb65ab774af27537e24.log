@@ -1,0 +1,39 @@
+2022-09-06T10:56:49+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-admin\includes\class-custom-image-header.php:1276
+Stack trace:
+#0 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-admin\includes\class-custom-image-header.php(1382): Custom_Image_Header->get_header_dimensions()
+#1 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php(307): Custom_Image_Header->ajax_header_crop()
+#2 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-admin\admin-ajax.php(187): do_action()
+#5 {main}
+  thrown in C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-admin\includes\class-custom-image-header.php on line 1276
+
+2022-09-06T12:34:51+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\plugin.php(476): WP_Hook->do_action()
+#2 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\script-loader.php(2139): do_action()
+#3 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-content\plugins\user-registration\includes\admin\class-ur-admin-welcome.php(208): wp_print_footer_scripts()
+#4 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-content\plugins\user-registration\includes\admin\class-ur-admin-welcome.php(78): UR_Admin_Welcome::setup_wizard_footer()
+#5 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php(307): UR_Admin_Welcome::welcome_page()
+#6 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-admin\admin.php(175): do_action()
+#9 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-admin\index.php(10): require_once('...')
+#10 {main}
+  thrown in C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php on line 307
+
+2022-09-06T12:35:59+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#1 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\plugin.php(476): WP_Hook->do_action()
+#2 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\script-loader.php(2139): do_action()
+#3 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-content\plugins\user-registration\includes\admin\class-ur-admin-welcome.php(208): wp_print_footer_scripts()
+#4 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-content\plugins\user-registration\includes\admin\class-ur-admin-welcome.php(78): UR_Admin_Welcome::setup_wizard_footer()
+#5 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php(307): UR_Admin_Welcome::welcome_page()
+#6 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\plugin.php(476): WP_Hook->do_action()
+#8 C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-admin\admin.php(175): do_action()
+#9 {main}
+  thrown in C:\Bitnami\duaa-2\apache2\htdocs\doaaBlog\wp-includes\class-wp-hook.php on line 307
+

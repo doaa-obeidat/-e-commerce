@@ -1,0 +1,123 @@
+/*banner-section*/
+.banner-section h1,.banner-section p,.banner-section h5,.category-section h3{ 
+    font-family: 'Caveat Brush', cursive;
+}
+.banner-section h1{
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.banner-section h5{
+    font-size: 19px;
+}
+.banner-section1 .shop-categories a{
+    color: #3f3f3f;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+}
+.banner-section .wc-block-product-categories-list-item a{
+    color: #ababab;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.banner-section .wc-block-product-categories-list-item a:after{
+    content: "\f0da";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #ababab;
+    font-size: 20px;
+    margin-right: 20px;
+    float: right;
+}
+.banner-section .banner-section1 ul.wc-block-product-categories-list.wc-block-product-categories-list--depth-0 {
+    list-style: none;
+}
+.banner-section .banner-section1 ul.wc-block-product-categories-list.wc-block-product-categories-list--depth-0 {
+    border-bottom: dashed 2px #eeeeee;
+    padding-bottom: 6px;
+}
+.banner-section p{ 
+	font-family: 'Montserrat', sans-serif;
+}
+.banner-section h5:before{
+    content: "\f0c9";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.banner-section1 h5{
+    margin-top: -1px;
+}
+.banner-section{
+    width: auto;
+    height: auto;
+}
+.block-editor-rich-text__editable.wp-block-button__link.rich-text{
+    background: transparent !important;
+    text-decoration: none !important;
+    border-radius: 30px !important;
+    border: 1px solid #fff !important;
+    padding: 13px 27px !important;
+    font-size: 18px !important;
+    font-family: 'Caveat Brush', cursive;
+    margin-left: 15px;
+    margin-top: -14px;
+    font-weight: 400;
+}
+.block-editor-rich-text__editable.wp-block-button__link.rich-text:hover{
+    box-shadow: none;
+    background: #ffc85b !important;
+    border-color: #ffc85b important;
+    border-color: #ffc85b !important;
+    color: #12265a !important;
+}
+.block-editor-rich-text__editable.wp-block-button__link.rich-text:hover:after {
+    content: "\f105";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #12265a;
+    padding-left: 10px;
+}
+.banner-section h5:before{
+    content: "\f0c9";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #12265a;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.banner-section h1:after{
+    content: "";
+    border-bottom: solid 4px #9cc44e;
+    position: absolute;
+    left: 0;
+    width: 25%;
+    margin-top: 46px;
+    margin-left: 18px;
+}
+/*category section*/
+.category-section h3{
+    margin-top: -10em;
+    position: absolute;
+    font-weight: 500;
+    font-size: 30px;
+}
+.category-section h3:after{
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #ffc85b;
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    margin-top: 45px;
+}
+

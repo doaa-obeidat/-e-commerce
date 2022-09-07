@@ -1,0 +1,164 @@
+/*banner-section*/
+.banner-section h1,.banner-section2-button a,.category-section h3{ 
+    font-family: 'Caveat Brush', cursive;
+}
+.banner-section{
+    width: auto;
+    height: auto;
+}
+.banner-section .wc-block-product-categories-list-item {
+    padding: 10px 0;
+}
+.banner-section .wc-block-product-categories-list-item a{
+    color: #ababab;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.banner-section .banner-section1 ul.wc-block-product-categories-list.wc-block-product-categories-list--depth-0 {
+    list-style: none;
+}
+.banner-section .banner-section1 ul.wc-block-product-categories-list.wc-block-product-categories-list--depth-0 {
+    border-bottom: dashed 2px #eeeeee;
+    padding: 15px;
+}
+.banner-section .wc-block-product-categories-list-item a:after{
+    content: "\f0da";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #ababab;
+    font-size: 20px;
+    margin-right: 5px;
+    float: right;
+}
+.banner-section2-button a.wp-block-button__link {
+    background: transparent !important;
+    text-decoration: none !important;
+    border-radius: 30px !important;
+    border: 1px solid #fff !important;
+    padding: 12px 22px !important;
+    font-size: 18px !important;
+    font-weight: 400;
+}
+.banner-section2-button a.wp-block-button__link:hover{
+    box-shadow: none;
+    background: #ffc85b !important;
+    border-color: #ffc85b important;
+    border-color: #ffc85b !important;
+    color: #12265a !important;
+}
+.banner-section2-button a.wp-block-button__link:hover:after {
+    content: "\f105";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #12265a;
+    padding-left: 10px;
+}
+.banner-section h5:before{
+    content: "\f0c9";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: #12265a;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.banner-section h1:after{
+    content: "";
+    border-bottom: solid 4px #ffc85b;
+    position: absolute;
+    left: 0;
+    width: 10%;
+    margin-top: 55px;
+    margin-left: 61px;
+}
+/*category section*/
+.category-section1, .category-section2, .category-section3{
+    position: relative;
+}
+.category-section1 h3, .category-section2 h3, .category-section3 h3{
+    position: absolute;
+    top: 22px;
+    width: 100%;
+    left: 0;
+    font-size: 30px;
+}
+.category-section h3:after{
+    content: '';
+    width: 50px;
+    height: 3px;
+    background: #ffc85b;
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    margin-top: 40px;
+}
+@media screen and (min-width: 320px) and (max-width: 575px){
+    .banner-section h1{
+       font-size: 25px !important;
+    }
+    .banner-section .wp-block-cover {
+       min-height: 0px;
+    }
+    .banner-section img.wp-block-cover__image-background.wp-image-2161 {
+        height: 70%;
+    }
+    .banner-section p{
+        display: none;
+    }
+    .banner-section h1:after {
+        content: "";
+        border-bottom: solid 4px #ffc85b;
+        position: absolute;
+        left: 0;
+        width: 37%;
+        margin-top: 32px;
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px){
+    .banner-section h1{
+       font-size: 35px !important;
+    }
+    .wp-block-cover, .wp-block-cover-image{
+        min-height: 100px; 
+    }   
+    .banner-section .wp-block-column.banner-section1 {
+        max-width: 30%;
+    }
+    .banner-section img.wp-block-cover__image-background.wp-image-2161 {
+        width: 100%;
+    }
+    .banner-section .wp-block-columns{
+       flex-wrap: nowrap !important;
+    }
+    .banner-section-main-class .wp-block-column.baner-section3{
+        flex-basis: 66.66% !important;
+    }
+    .banner-section-main-class .wp-block-column.baner-section4{
+        flex-basis: 33.33% !important;
+    }
+    .banner-section h1:after{
+        width: 20%;
+        margin-top: 43px;
+        margin-left: 18px;
+    }
+    .banner-section h5.has-background {
+       padding: 25px;
+    }
+    .category-section .wp-block-columns{
+      flex-wrap: nowrap !important;
+    }
+    .category-section1 h3, .category-section2 h3, .category-section3 h3 {
+        position: absolute;
+        top: 14px;
+        width: 100%;
+        left: 0;
+        font-size: 25px;
+    }
+    .category-section h3:after{
+        margin-top: 32px;
+    }
+}

@@ -1,0 +1,123 @@
+/*
+Theme Name: VW Kids Store
+Theme URI: https://www.vwthemes.com/themes/free-kids-store-wordpress-theme/
+Author: VWthemes
+Author URI: https://www.vwthemes.com
+Description: VW Kids Store is a free WordPress theme ideal for kids and baby shops, kids toy stores, children's clothing, baby products, and more. This is a wonderful theme with an elegant and colorful design with the desired minimal approach. Crafted by a WordPress expert, it has a sophisticated design and a clean layout depicting every detail with precision and clarity. It is made retina-ready to publish crystal clear images of your products. Its user-friendly interface is great for everyone irrespective of the coding skills possessed. This beautiful theme comes with a responsive layout making your website look and work fabulously across every device including smartphones and gives your visitors a stunning viewing experience. To add more professional appeal to your website, you get the option to add a custom logo. As far as personalization options are concerned, you will get choices for colors, fonts, and typography. Developers have taken care of the conversion part and interactive part simultaneously and have included the Call to Action Button (CTA) for the same. Highly secure and clean codes that are also optimized will result in a lightweight design giving you faster page load time. SEO Friendly codes result in higher ranks in SERP and eventually, you get more traffic to your website. Demo: https://www.vwthemes.net/vw-kids-store/
+Template: vw-kids
+Tested up to: 6.0
+Requires PHP: 7.2
+Version: 1.2.8
+License: GPLv3.0 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: vw-kids-store
+Tags: left-sidebar, right-sidebar, one-column, two-columns, three-columns, four-columns, grid-layout, wide-blocks, block-styles, flexible-header, block-patterns, custom-colors, custom-background, custom-logo, custom-menu, custom-header, editor-style, featured-images, footer-widgets, sticky-post, full-width-template, theme-options, threaded-comments, post-formats, rtl-language-support, blog, portfolio, e-commerce
+*/
+
+#topbar, .woocommerce span.onsale, .woocommerce ul.products li.product, #footer, .pagination span, .pagination a, #comments a.comment-reply-link:hover {
+  background: #12265a;
+}
+a, .logo h1 a, .logo p.site-title a, .main-navigation a, .categry-title strong, .product-cat li a:hover, .main-navigation ul ul a, #slider .view-more:hover, .view-more:hover i, #popular-toys strong, .woocommerce ul.products li.product:hover h2, .woocommerce ul.products li.product:hover .price, .woocommerce ul.products li.product:hover .star-rating::before, .woocommerce ul.products li.product:hover span.onsale, .copyright p, .copyright a, .account a:hover, #footer input[type="submit"], .content-vw a, .woocommerce-product-details__short-description p a, .entry-content a, #sidebar .textwidget a, .textwidget a, #comments .comment-content a,.post-main-box h2 a, .view-more, .content-bttn .view-more:hover i, .error-btn .view-more:hover i, #sidebar li a:hover, .woocommerce div.product .product_title, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, h1, h2, h3, h4, h5, h6, .woocommerce button.button:disabled, .woocommerce button.button:disabled[disabled], nav.woocommerce-MyAccount-navigation ul li a, .cart_no i {
+  color: #12265a;
+}
+#menu-box, .categry-title, #slider hr, #slider .view-more:hover, .woocommerce ul.products li.product:hover, .woocommerce ul.products li.product:hover span.onsale, #footer-2, nav.woocommerce-MyAccount-navigation ul li, .header-fixed, #preloader {
+  background: #ffc85b;
+}
+.main-navigation ul.sub-menu a:hover, .post-main-box:hover h2 a, .post-main-box:hover .entry-date a, .post-main-box:hover .entry-author a, .single-post .post-info:hover .entry-date a, .single-post .post-info:hover .entry-author a, .cart_no i:hover,.logo .site-title a:hover {
+  color: #ffc85b;
+}
+.cart-value, #slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover, .scrollup i, input[type="submit"], .view-more:hover , .pagination .current, .pagination a:hover, #sidebar .tagcloud a:hover, #footer .tagcloud a:hover, #comments input[type="submit"], #comments a.comment-reply-link, .woocommerce #respond input#submit:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover, #toy-category .owl-nav button:hover {
+  background: #ffc85b;
+  color: #12265a;
+}
+.main-navigation ul li:first-child a, .main-navigation a, #slider .view-more, #slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+  border-color: #fff;
+}
+.main-navigation ul ul li:first-child a{
+  border-color: #eaeaea;
+}
+.main-navigation ul ul, a.button.product_type_simple.add_to_cart_button, .view-more, .woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, .cart_no i, .header-fixed, .loader-line {
+  border-color: #12265a;
+}
+.page-template-ibtana-page-template .middle-align{
+  padding: 0em 0 0;
+}
+.product-cat li a {
+  color: #3f3f3f;
+}
+#cate_slider {
+  background: #ffe6e6;
+}
+#slider {
+  background: linear-gradient(90deg, #000 20%, rgb(0 0 0 / 10%) 80%);
+}
+#slider .inner_carousel h1 a, #slider .inner_carousel p, #slider .view-more, #slider .carousel-control-prev-icon, #slider .carousel-control-next-icon, #slider .inner_carousel h1 a:hover, #footer li a:hover {
+  color: #fff;
+}
+#slider .view-more:hover, #slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover, #popular-toys hr, .products li:hover a.button, #footer h3:after, #footer .wp-block-search .wp-block-search__label:after, .view-more:hover, a.added_to_cart.wc-forward, .woocommerce #respond input#submit:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover, .woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button:disabled[disabled]:hover, #toy-category .owl-nav button:hover {
+  border-color: #ffc85b;
+}
+a.button.product_type_simple.add_to_cart_button {
+  background: url(assets/images/cart-icon.png) no-repeat scroll 17px #fff;
+}
+a.added_to_cart.wc-forward {
+  background: url(assets/images/view-icon.png) no-repeat scroll 17px #fff
+}
+
+/*Toys Product*/
+#toy-category .cat-box img {
+  border-radius: 15px;
+}
+#toy-category .cat-box h3 {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  left: 0;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+#toy-category .cat-box h3:after{
+  content: '';
+  width: 50px;
+  height: 3px;
+  background: #ffc85b;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 30px;
+}
+#toy-category .cat-box h3 a {
+  color: #fff;
+}
+#toy-category .owl-nav {
+  margin-top: 20px;
+  text-align: center;
+}
+#toy-category .owl-nav button {
+  padding: 10px 15px !important;
+  border: 2px solid #12265a;
+  color: #12265a;
+  margin: 0 5px;
+  border-radius: 50%;
+}
+
+.post-main-box, #sidebar .widget {
+  box-shadow: 0px 15px 10px -15px #ffc85b;
+}
+nav.woocommerce-MyAccount-navigation ul li {
+  box-shadow: 2px 2px 0 0 #12265a;
+}
+section.related.products a.button.product_type_simple.add_to_cart_button{
+  top: 160px;
+}
+@media screen and (max-width: 1000px) {
+  .toggle-nav i{
+    background: #12265a;
+  }
+  .main-navigation ul li a {
+    color: #12265a;
+  }
+}

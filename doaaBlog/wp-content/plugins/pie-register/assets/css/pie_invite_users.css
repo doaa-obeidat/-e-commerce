@@ -1,0 +1,21 @@
+/* USER INVITATION - INVITE CODE*/
+.pieregister-admin .invite-tab-content, .pieregister-admin fieldset.pr-user-tracker{width:100%;float:left}
+.pieregister-admin .invitation .pr-allow-user-invitation-menu .fields select.multiselect{height:80px;}
+.pieregister-admin .invitation .pr-allow-user-invitation-menu .fields select#user_invitation_user_roles{height:100px;}
+.pieregister-admin .invitation .pr-allow-user-invitation-menu .cols-2{width:30%;}
+.pieregister-admin .invitation .pr-allow-user-invitation-menu .pr-enable-user-invitation{margin-top: -10px;}
+.pieregister-admin .invitation .pr-allow-user-invitation-menu .fields{margin-bottom: 10px;}
+.pieregister-admin .invitation .pr-allow-user-invitation-menu hr.seperator{float:left;width:98%;margin:10px 0px 15px;}
+.pieregister-admin .invitation .pr-user-tracker-menu .user-tracker-search-box-container{display: flex; justify-content: center;}
+.pieregister-admin .invitation .pr-user-tracker-menu .user-tracker-search-box{width: 50%;display: flex;}
+.pieregister-admin .invitation .pr-user-tracker-menu .user-tracker-search-input{width: 100%;border: 4px solid #0a4b78!important;border-radius:10px 0 0 10px!important;border-right: none!important;font-size: 20px;color: tomato!important;}
+.pieregister-admin .invitation .pr-user-tracker-menu .user-tracker-search-button{height: 55px;width: 60px;cursor: pointer;border: 4px solid #0a4b78;border-radius: 0 10px 10px 0 ;background: #0a4b78;margin-left: -2px;}
+.pieregister-admin .invitation .pr-allow-user-invitation-menu .fields .radio_fields.user_invitation_add_capability{margin-top: -5px;}
+.pieregister-admin .invitation .pr-allow-user-invitation-menu .fields .radio_fields.user_invitation_add_capability label{font-size: 14px;}
+.pieregister-admin .invitation .pr-user-tracker .invite_users_view_more{cursor: pointer; color: #0a4b78; font-weight: 700;}
+.pieregister-admin .invitation .widefat.pr-user-tracker *{word-wrap: break-word;}
+.pieregister-admin .invitation.settings .widefat.pr-user-tracker th.column-code_usage,.pieregister-admin .invitation.settings .widefat.pr-user-tracker th.column-user_role {width: 90px;}
+.pieregister-admin .invitation.settings .widefat.pr-user-tracker th.column-expiry_date{width: 120px;}
+.pieregister-admin .invitation.settings .widefat.pr-user-tracker th.column-name{width: 150px;}
+.pieregister-admin .invitation.settings .widefat.pr-user-tracker .user_not_exist{color: red; font-weight: 600;}
+.pieregister-admin .invitation .pr-allow-user-invitation-menu .fields .display_search,.pieregister-admin .invitation .pr-allow-user-invitation-menu .fields .select2-choices{width: 100%; background: #f1f1f1 ;}

@@ -1,0 +1,15 @@
+a.button.button-secondary.alignright {
+    color: #fff !important;
+    background: #12265a !important;
+    font-size: 14px;
+    margin: -5px !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: 2px 2px 0px 0px #fff !important;
+    font-size: 14px;
+}
+#accordion-section-vw_kids_store_upgrade_pro_link h3.accordion-section-title, #accordion-section-vw_kids_store_get_started_link h3.accordion-section-title,
+#accordion-section-vw_kids_store2 h3.accordion-section-title{
+    background: #222426 !important;
+    color: #fff !important;
+}
